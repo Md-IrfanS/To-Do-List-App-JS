@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Iconscout Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <!-- <img src="bars-icon.svg" alt="bars-icon" /> -->
+        <input type="text" placeholder="Add a new task" />
+        <p class="error-msg"></p>
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span id="all" class="active">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <p class="task-result"></p>
+      <ul class="task-lists"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
